@@ -1,0 +1,1088 @@
+From MAILER-DAEMON  Mon Jul 14 19:17:01 2025
+Return-Path: <>
+X-Original-To: root@localhost
+Delivered-To: root@localhost
+Received: by localhost (Postfix)
+	id 12DD7EC62; Mon, 14 Jul 2025 19:17:01 +0000 (UTC)
+Date: Mon, 14 Jul 2025 19:17:01 +0000 (UTC)
+From: MAILER-DAEMON@localhost (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: root@localhost
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="B144CEC61.1752520621/localhost"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20250714191701.12DD7EC62@localhost>
+
+This is a MIME-encapsulated message.
+
+--B144CEC61.1752520621/localhost
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host localhost.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<julia@cafeekernel>: Host or domain name not found. Name service error for
+    name=cafeekernel type=AAAA: Host not found
+
+--B144CEC61.1752520621/localhost
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; localhost
+X-Postfix-Queue-ID: B144CEC61
+X-Postfix-Sender: rfc822; root@localhost
+Arrival-Date: Mon, 14 Jul 2025 19:16:49 +0000 (UTC)
+
+Final-Recipient: rfc822; julia@cafeekernel
+Original-Recipient: rfc822;julia@cafeekernel
+Action: failed
+Status: 5.4.4
+Diagnostic-Code: X-Postfix; Host or domain name not found. Name service error
+    for name=cafeekernel type=AAAA: Host not found
+
+--B144CEC61.1752520621/localhost
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <root@localhost>
+Received: by localhost (Postfix, from userid 0)
+	id B144CEC61; Mon, 14 Jul 2025 19:16:49 +0000 (UTC)
+Subject: Teste de cabine
+Message-Id: <20250714191649.B144CEC61@localhost>
+Date: Mon, 14 Jul 2025 19:16:49 +0000 (UTC)
+From: root <root@localhost>
+
+Olá, Julia!
+
+--B144CEC61.1752520621/localhost--
+
+From MAILER-DAEMON  Mon Jul 14 19:38:11 2025
+Return-Path: <>
+X-Original-To: root@localhost
+Delivered-To: root@localhost
+Received: by localhost (Postfix)
+	id 305D4BAC6; Mon, 14 Jul 2025 19:38:11 +0000 (UTC)
+Date: Mon, 14 Jul 2025 19:38:11 +0000 (UTC)
+From: MAILER-DAEMON@localhost (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: root@localhost
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="2A514BAC5.1752521891/localhost"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20250714193811.305D4BAC6@localhost>
+
+This is a MIME-encapsulated message.
+
+--2A514BAC5.1752521891/localhost
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host localhost.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<julia@localhost> (expanded from <julia>): cannot update mailbox
+    /var/mail/julia for user julia. cannot open file: Is a directory
+
+--2A514BAC5.1752521891/localhost
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; localhost
+X-Postfix-Queue-ID: 2A514BAC5
+X-Postfix-Sender: rfc822; root@localhost
+Arrival-Date: Mon, 14 Jul 2025 19:38:11 +0000 (UTC)
+
+Final-Recipient: rfc822; julia@localhost
+Original-Recipient: rfc822;julia@localhost
+Action: failed
+Status: 5.2.0
+Diagnostic-Code: X-Postfix; cannot update mailbox /var/mail/julia for user
+    julia. cannot open file: Is a directory
+
+--2A514BAC5.1752521891/localhost
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <root@localhost>
+Received: by localhost (Postfix, from userid 0)
+	id 2A514BAC5; Mon, 14 Jul 2025 19:38:11 +0000 (UTC)
+Subject: Teste direto
+Message-Id: <20250714193811.2A514BAC5@localhost>
+Date: Mon, 14 Jul 2025 19:38:11 +0000 (UTC)
+From: root <root@localhost>
+
+Mensagem direta para Julia
+
+--2A514BAC5.1752521891/localhost--
+
+From MAILER-DAEMON  Sat Jul 19 23:08:34 2025
+Return-Path: <>
+X-Original-To: root@localhost
+Delivered-To: root@localhost
+Received: by localhost (Postfix)
+	id 702781E9CD; Sat, 19 Jul 2025 23:08:34 +0000 (UTC)
+Date: Sat, 19 Jul 2025 23:08:34 +0000 (UTC)
+From: Mail Delivery System <MAILER-DAEMON@localhost>
+Subject: Undelivered Mail Returned to Sender
+To: root@localhost
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="101B91E9CA.1752966514/localhost"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20250719230834.702781E9CD@localhost>
+
+This is a MIME-encapsulated message.
+
+--101B91E9CA.1752966514/localhost
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host localhost.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<julia@cafeekernel>: Host or domain name not found. Name service error for
+    name=cafeekernel type=AAAA: Host not found
+
+--101B91E9CA.1752966514/localhost
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; localhost
+X-Postfix-Queue-ID: 101B91E9CA
+X-Postfix-Sender: rfc822; root@localhost
+Arrival-Date: Sat, 19 Jul 2025 23:08:23 +0000 (UTC)
+
+Final-Recipient: rfc822; julia@cafeekernel
+Original-Recipient: rfc822;julia@cafeekernel
+Action: failed
+Status: 5.4.4
+Diagnostic-Code: X-Postfix; Host or domain name not found. Name service error
+    for name=cafeekernel type=AAAA: Host not found
+
+--101B91E9CA.1752966514/localhost
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <root@localhost>
+Received: by localhost (Postfix, from userid 0)
+	id 101B91E9CA; Sat, 19 Jul 2025 23:08:23 +0000 (UTC)
+Message-Id: <20250719230823.101B91E9CA@localhost>
+Date: Sat, 19 Jul 2025 23:08:23 +0000 (UTC)
+From: root <root@localhost>
+
+Corpo da mensagem
+
+--101B91E9CA.1752966514/localhost--
+
+From MAILER-DAEMON  Sat Jul 19 23:08:35 2025
+Return-Path: <>
+X-Original-To: root@localhost
+Delivered-To: root@localhost
+Received: by localhost (Postfix)
+	id 714681E9C4; Sat, 19 Jul 2025 23:08:34 +0000 (UTC)
+Date: Sat, 19 Jul 2025 23:08:34 +0000 (UTC)
+From: Mail Delivery System <MAILER-DAEMON@localhost>
+Subject: Mail Delivery Status Report
+To: root@localhost
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="101B91E9CA.1752966514/localhost"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20250719230834.714681E9C4@localhost>
+
+This is a MIME-encapsulated message.
+
+--101B91E9CA.1752966514/localhost
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host localhost.
+
+Enclosed is the mail delivery report that you requested.
+
+                   The mail system
+
+<julia@cafeekernel>: Host or domain name not found. Name service error for
+    name=cafeekernel type=AAAA: Host not found
+
+--101B91E9CA.1752966514/localhost
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; localhost
+X-Postfix-Queue-ID: 101B91E9CA
+X-Postfix-Sender: rfc822; root@localhost
+Arrival-Date: Sat, 19 Jul 2025 23:08:23 +0000 (UTC)
+
+Final-Recipient: rfc822; julia@cafeekernel
+Original-Recipient: rfc822;julia@cafeekernel
+Action: failed
+Status: 5.4.4
+Diagnostic-Code: X-Postfix; Host or domain name not found. Name service error
+    for name=cafeekernel type=AAAA: Host not found
+
+--101B91E9CA.1752966514/localhost
+Content-Description: Message Headers
+Content-Type: text/rfc822-headers
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <root@localhost>
+Received: by localhost (Postfix, from userid 0)
+	id 101B91E9CA; Sat, 19 Jul 2025 23:08:23 +0000 (UTC)
+Message-Id: <20250719230823.101B91E9CA@localhost>
+Date: Sat, 19 Jul 2025 23:08:23 +0000 (UTC)
+From: root <root@localhost>
+
+--101B91E9CA.1752966514/localhost--
+
+From MAILER-DAEMON  Sat Jul 19 23:16:46 2025
+Return-Path: <>
+X-Original-To: root@localhost
+Delivered-To: root@localhost
+Received: by localhost (Postfix)
+	id BEF531E9D1; Sat, 19 Jul 2025 23:16:46 +0000 (UTC)
+Date: Sat, 19 Jul 2025 23:16:46 +0000 (UTC)
+From: Mail Delivery System <MAILER-DAEMON@localhost>
+Subject: Undelivered Mail Returned to Sender
+To: root@localhost
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="3ACD91E9CA.1752967006/localhost"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20250719231646.BEF531E9D1@localhost>
+
+This is a MIME-encapsulated message.
+
+--3ACD91E9CA.1752967006/localhost
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host localhost.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<julia@cafeekernel>: Host or domain name not found. Name service error for
+    name=cafeekernel type=AAAA: Host not found
+
+--3ACD91E9CA.1752967006/localhost
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; localhost
+X-Postfix-Queue-ID: 3ACD91E9CA
+X-Postfix-Sender: rfc822; root@localhost
+Arrival-Date: Sat, 19 Jul 2025 23:16:31 +0000 (UTC)
+
+Final-Recipient: rfc822; julia@cafeekernel
+Original-Recipient: rfc822;julia@cafeekernel
+Action: failed
+Status: 5.4.4
+Diagnostic-Code: X-Postfix; Host or domain name not found. Name service error
+    for name=cafeekernel type=AAAA: Host not found
+
+--3ACD91E9CA.1752967006/localhost
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <root@localhost>
+Received: by localhost (Postfix, from userid 0)
+	id 3ACD91E9CA; Sat, 19 Jul 2025 23:16:31 +0000 (UTC)
+Message-Id: <20250719231631.3ACD91E9CA@localhost>
+Date: Sat, 19 Jul 2025 23:16:31 +0000 (UTC)
+From: root <root@localhost>
+
+--3ACD91E9CA.1752967006/localhost--
+
+From MAILER-DAEMON  Sat Jul 19 23:16:48 2025
+Return-Path: <>
+X-Original-To: root@localhost
+Delivered-To: root@localhost
+Received: by localhost (Postfix)
+	id E930D1E9C4; Sat, 19 Jul 2025 23:16:46 +0000 (UTC)
+Date: Sat, 19 Jul 2025 23:16:46 +0000 (UTC)
+From: Mail Delivery System <MAILER-DAEMON@localhost>
+Subject: Mail Delivery Status Report
+To: root@localhost
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="3ACD91E9CA.1752967006/localhost"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20250719231646.E930D1E9C4@localhost>
+
+This is a MIME-encapsulated message.
+
+--3ACD91E9CA.1752967006/localhost
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host localhost.
+
+Enclosed is the mail delivery report that you requested.
+
+                   The mail system
+
+<julia@cafeekernel>: Host or domain name not found. Name service error for
+    name=cafeekernel type=AAAA: Host not found
+
+--3ACD91E9CA.1752967006/localhost
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; localhost
+X-Postfix-Queue-ID: 3ACD91E9CA
+X-Postfix-Sender: rfc822; root@localhost
+Arrival-Date: Sat, 19 Jul 2025 23:16:31 +0000 (UTC)
+
+Final-Recipient: rfc822; julia@cafeekernel
+Original-Recipient: rfc822;julia@cafeekernel
+Action: failed
+Status: 5.4.4
+Diagnostic-Code: X-Postfix; Host or domain name not found. Name service error
+    for name=cafeekernel type=AAAA: Host not found
+
+--3ACD91E9CA.1752967006/localhost
+Content-Description: Message Headers
+Content-Type: text/rfc822-headers
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <root@localhost>
+Received: by localhost (Postfix, from userid 0)
+	id 3ACD91E9CA; Sat, 19 Jul 2025 23:16:31 +0000 (UTC)
+Message-Id: <20250719231631.3ACD91E9CA@localhost>
+Date: Sat, 19 Jul 2025 23:16:31 +0000 (UTC)
+From: root <root@localhost>
+
+--3ACD91E9CA.1752967006/localhost--
+
+From MAILER-DAEMON  Sat Jul 19 23:16:48 2025
+Return-Path: <>
+X-Original-To: root@localhost
+Delivered-To: root@localhost
+Received: by localhost (Postfix)
+	id 1255C1E9D1; Sat, 19 Jul 2025 23:16:48 +0000 (UTC)
+Date: Sat, 19 Jul 2025 23:16:48 +0000 (UTC)
+From: Mail Delivery System <MAILER-DAEMON@localhost>
+Subject: Undelivered Mail Returned to Sender
+To: root@localhost
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="DC78A1E9CC.1752967008/localhost"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20250719231648.1255C1E9D1@localhost>
+
+This is a MIME-encapsulated message.
+
+--DC78A1E9CC.1752967008/localhost
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host localhost.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<julia@cafeekernel>: Host or domain name not found. Name service error for
+    name=cafeekernel type=AAAA: Host not found
+
+--DC78A1E9CC.1752967008/localhost
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; localhost
+X-Postfix-Queue-ID: DC78A1E9CC
+X-Postfix-Sender: rfc822; root@localhost
+Arrival-Date: Sat, 19 Jul 2025 23:16:36 +0000 (UTC)
+
+Final-Recipient: rfc822; julia@cafeekernel
+Original-Recipient: rfc822;julia@cafeekernel
+Action: failed
+Status: 5.4.4
+Diagnostic-Code: X-Postfix; Host or domain name not found. Name service error
+    for name=cafeekernel type=AAAA: Host not found
+
+--DC78A1E9CC.1752967008/localhost
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <root@localhost>
+Received: by localhost (Postfix, from userid 0)
+	id DC78A1E9CC; Sat, 19 Jul 2025 23:16:36 +0000 (UTC)
+Message-Id: <20250719231636.DC78A1E9CC@localhost>
+Date: Sat, 19 Jul 2025 23:16:36 +0000 (UTC)
+From: root <root@localhost>
+
+--DC78A1E9CC.1752967008/localhost--
+
+From MAILER-DAEMON  Sat Jul 19 23:16:49 2025
+Return-Path: <>
+X-Original-To: root@localhost
+Delivered-To: root@localhost
+Received: by localhost (Postfix)
+	id 13BAF1E9C4; Sat, 19 Jul 2025 23:16:48 +0000 (UTC)
+Date: Sat, 19 Jul 2025 23:16:48 +0000 (UTC)
+From: Mail Delivery System <MAILER-DAEMON@localhost>
+Subject: Mail Delivery Status Report
+To: root@localhost
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="DC78A1E9CC.1752967008/localhost"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20250719231648.13BAF1E9C4@localhost>
+
+This is a MIME-encapsulated message.
+
+--DC78A1E9CC.1752967008/localhost
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host localhost.
+
+Enclosed is the mail delivery report that you requested.
+
+                   The mail system
+
+<julia@cafeekernel>: Host or domain name not found. Name service error for
+    name=cafeekernel type=AAAA: Host not found
+
+--DC78A1E9CC.1752967008/localhost
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; localhost
+X-Postfix-Queue-ID: DC78A1E9CC
+X-Postfix-Sender: rfc822; root@localhost
+Arrival-Date: Sat, 19 Jul 2025 23:16:36 +0000 (UTC)
+
+Final-Recipient: rfc822; julia@cafeekernel
+Original-Recipient: rfc822;julia@cafeekernel
+Action: failed
+Status: 5.4.4
+Diagnostic-Code: X-Postfix; Host or domain name not found. Name service error
+    for name=cafeekernel type=AAAA: Host not found
+
+--DC78A1E9CC.1752967008/localhost
+Content-Description: Message Headers
+Content-Type: text/rfc822-headers
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <root@localhost>
+Received: by localhost (Postfix, from userid 0)
+	id DC78A1E9CC; Sat, 19 Jul 2025 23:16:36 +0000 (UTC)
+Message-Id: <20250719231636.DC78A1E9CC@localhost>
+Date: Sat, 19 Jul 2025 23:16:36 +0000 (UTC)
+From: root <root@localhost>
+
+--DC78A1E9CC.1752967008/localhost--
+
+From MAILER-DAEMON  Sat Jul 19 23:19:44 2025
+Return-Path: <>
+X-Original-To: root@localhost
+Delivered-To: root@localhost
+Received: by localhost (Postfix)
+	id 04AF71E9CD; Sat, 19 Jul 2025 23:19:44 +0000 (UTC)
+Date: Sat, 19 Jul 2025 23:19:44 +0000 (UTC)
+From: Mail Delivery System <MAILER-DAEMON@localhost>
+Subject: Undelivered Mail Returned to Sender
+To: root@localhost
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="950D51E9CA.1752967184/localhost"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20250719231944.04AF71E9CD@localhost>
+
+This is a MIME-encapsulated message.
+
+--950D51E9CA.1752967184/localhost
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host localhost.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<julia@cafeekernel>: Host or domain name not found. Name service error for
+    name=cafeekernel type=AAAA: Host not found
+
+--950D51E9CA.1752967184/localhost
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; localhost
+X-Postfix-Queue-ID: 950D51E9CA
+X-Postfix-Sender: rfc822; root@localhost
+Arrival-Date: Sat, 19 Jul 2025 23:19:32 +0000 (UTC)
+
+Final-Recipient: rfc822; julia@cafeekernel
+Original-Recipient: rfc822;julia@cafeekernel
+Action: failed
+Status: 5.4.4
+Diagnostic-Code: X-Postfix; Host or domain name not found. Name service error
+    for name=cafeekernel type=AAAA: Host not found
+
+--950D51E9CA.1752967184/localhost
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <root@localhost>
+Received: by localhost (Postfix, from userid 0)
+	id 950D51E9CA; Sat, 19 Jul 2025 23:19:32 +0000 (UTC)
+Subject: Teste de entrega
+Message-Id: <20250719231932.950D51E9CA@localhost>
+Date: Sat, 19 Jul 2025 23:19:32 +0000 (UTC)
+From: root <root@localhost>
+
+Mensagem direta via sendmail
+
+--950D51E9CA.1752967184/localhost--
+
+From MAILER-DAEMON  Sat Jul 19 23:19:44 2025
+Return-Path: <>
+X-Original-To: root@localhost
+Delivered-To: root@localhost
+Received: by localhost (Postfix)
+	id 05BD21E9C4; Sat, 19 Jul 2025 23:19:44 +0000 (UTC)
+Date: Sat, 19 Jul 2025 23:19:44 +0000 (UTC)
+From: Mail Delivery System <MAILER-DAEMON@localhost>
+Subject: Mail Delivery Status Report
+To: root@localhost
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="950D51E9CA.1752967184/localhost"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20250719231944.05BD21E9C4@localhost>
+
+This is a MIME-encapsulated message.
+
+--950D51E9CA.1752967184/localhost
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host localhost.
+
+Enclosed is the mail delivery report that you requested.
+
+                   The mail system
+
+<julia@cafeekernel>: Host or domain name not found. Name service error for
+    name=cafeekernel type=AAAA: Host not found
+
+--950D51E9CA.1752967184/localhost
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; localhost
+X-Postfix-Queue-ID: 950D51E9CA
+X-Postfix-Sender: rfc822; root@localhost
+Arrival-Date: Sat, 19 Jul 2025 23:19:32 +0000 (UTC)
+
+Final-Recipient: rfc822; julia@cafeekernel
+Original-Recipient: rfc822;julia@cafeekernel
+Action: failed
+Status: 5.4.4
+Diagnostic-Code: X-Postfix; Host or domain name not found. Name service error
+    for name=cafeekernel type=AAAA: Host not found
+
+--950D51E9CA.1752967184/localhost
+Content-Description: Message Headers
+Content-Type: text/rfc822-headers
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <root@localhost>
+Received: by localhost (Postfix, from userid 0)
+	id 950D51E9CA; Sat, 19 Jul 2025 23:19:32 +0000 (UTC)
+Subject: Teste de entrega
+Message-Id: <20250719231932.950D51E9CA@localhost>
+Date: Sat, 19 Jul 2025 23:19:32 +0000 (UTC)
+From: root <root@localhost>
+
+--950D51E9CA.1752967184/localhost--
+
+From MAILER-DAEMON  Sat Jul 19 23:21:48 2025
+Return-Path: <>
+X-Original-To: root@localhost
+Delivered-To: root@localhost
+Received: by localhost (Postfix)
+	id 1FE611E9CD; Sat, 19 Jul 2025 23:21:48 +0000 (UTC)
+Date: Sat, 19 Jul 2025 23:21:48 +0000 (UTC)
+From: Mail Delivery System <MAILER-DAEMON@localhost>
+Subject: Undelivered Mail Returned to Sender
+To: root@localhost
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="D5DD81E9CA.1752967308/localhost"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20250719232148.1FE611E9CD@localhost>
+
+This is a MIME-encapsulated message.
+
+--D5DD81E9CA.1752967308/localhost
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host localhost.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<julia@cafeekernel>: Host or domain name not found. Name service error for
+    name=cafeekernel type=AAAA: Host not found
+
+--D5DD81E9CA.1752967308/localhost
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; localhost
+X-Postfix-Queue-ID: D5DD81E9CA
+X-Postfix-Sender: rfc822; root@localhost
+Arrival-Date: Sat, 19 Jul 2025 23:21:36 +0000 (UTC)
+
+Final-Recipient: rfc822; julia@cafeekernel
+Original-Recipient: rfc822;julia@cafeekernel
+Action: failed
+Status: 5.4.4
+Diagnostic-Code: X-Postfix; Host or domain name not found. Name service error
+    for name=cafeekernel type=AAAA: Host not found
+
+--D5DD81E9CA.1752967308/localhost
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <root@localhost>
+Received: by localhost (Postfix, from userid 0)
+	id D5DD81E9CA; Sat, 19 Jul 2025 23:21:36 +0000 (UTC)
+Subject: Teste de entrega
+Message-Id: <20250719232136.D5DD81E9CA@localhost>
+Date: Sat, 19 Jul 2025 23:21:36 +0000 (UTC)
+From: root <root@localhost>
+
+Mensagem direta via sendmail
+
+--D5DD81E9CA.1752967308/localhost--
+
+From MAILER-DAEMON  Sat Jul 19 23:21:48 2025
+Return-Path: <>
+X-Original-To: root@localhost
+Delivered-To: root@localhost
+Received: by localhost (Postfix)
+	id 20BE71E9C4; Sat, 19 Jul 2025 23:21:48 +0000 (UTC)
+Date: Sat, 19 Jul 2025 23:21:48 +0000 (UTC)
+From: Mail Delivery System <MAILER-DAEMON@localhost>
+Subject: Mail Delivery Status Report
+To: root@localhost
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="D5DD81E9CA.1752967308/localhost"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20250719232148.20BE71E9C4@localhost>
+
+This is a MIME-encapsulated message.
+
+--D5DD81E9CA.1752967308/localhost
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host localhost.
+
+Enclosed is the mail delivery report that you requested.
+
+                   The mail system
+
+<julia@cafeekernel>: Host or domain name not found. Name service error for
+    name=cafeekernel type=AAAA: Host not found
+
+--D5DD81E9CA.1752967308/localhost
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; localhost
+X-Postfix-Queue-ID: D5DD81E9CA
+X-Postfix-Sender: rfc822; root@localhost
+Arrival-Date: Sat, 19 Jul 2025 23:21:36 +0000 (UTC)
+
+Final-Recipient: rfc822; julia@cafeekernel
+Original-Recipient: rfc822;julia@cafeekernel
+Action: failed
+Status: 5.4.4
+Diagnostic-Code: X-Postfix; Host or domain name not found. Name service error
+    for name=cafeekernel type=AAAA: Host not found
+
+--D5DD81E9CA.1752967308/localhost
+Content-Description: Message Headers
+Content-Type: text/rfc822-headers
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <root@localhost>
+Received: by localhost (Postfix, from userid 0)
+	id D5DD81E9CA; Sat, 19 Jul 2025 23:21:36 +0000 (UTC)
+Subject: Teste de entrega
+Message-Id: <20250719232136.D5DD81E9CA@localhost>
+Date: Sat, 19 Jul 2025 23:21:36 +0000 (UTC)
+From: root <root@localhost>
+
+--D5DD81E9CA.1752967308/localhost--
+
+From MAILER-DAEMON  Sat Jul 19 23:43:59 2025
+Return-Path: <>
+X-Original-To: root@localhost
+Delivered-To: root@localhost
+Received: by localhost (Postfix)
+	id 0A5D11E9D6; Sat, 19 Jul 2025 23:43:59 +0000 (UTC)
+Date: Sat, 19 Jul 2025 23:43:59 +0000 (UTC)
+From: Mail Delivery System <MAILER-DAEMON@localhost>
+Subject: Undelivered Mail Returned to Sender
+To: root@localhost
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="CB0191E9D4.1752968639/localhost"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20250719234359.0A5D11E9D6@localhost>
+
+This is a MIME-encapsulated message.
+
+--CB0191E9D4.1752968639/localhost
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host localhost.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<julia@cafeekernel>: Host or domain name not found. Name service error for
+    name=cafeekernel type=AAAA: Host not found
+
+--CB0191E9D4.1752968639/localhost
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; localhost
+X-Postfix-Queue-ID: CB0191E9D4
+X-Postfix-Sender: rfc822; root@localhost
+Arrival-Date: Sat, 19 Jul 2025 23:43:43 +0000 (UTC)
+
+Final-Recipient: rfc822; julia@cafeekernel
+Original-Recipient: rfc822;julia@cafeekernel
+Action: failed
+Status: 5.4.4
+Diagnostic-Code: X-Postfix; Host or domain name not found. Name service error
+    for name=cafeekernel type=AAAA: Host not found
+
+--CB0191E9D4.1752968639/localhost
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <root@localhost>
+Received: by localhost (Postfix, from userid 0)
+	id CB0191E9D4; Sat, 19 Jul 2025 23:43:43 +0000 (UTC)
+Subject: Teste via sendmail
+Message-Id: <20250719234343.CB0191E9D4@localhost>
+Date: Sat, 19 Jul 2025 23:43:43 +0000 (UTC)
+From: root <root@localhost>
+
+Verificação após rsyslog
+
+--CB0191E9D4.1752968639/localhost--
+
+From MAILER-DAEMON  Sat Jul 19 23:43:59 2025
+Return-Path: <>
+X-Original-To: root@localhost
+Delivered-To: root@localhost
+Received: by localhost (Postfix)
+	id 0BD701E9D3; Sat, 19 Jul 2025 23:43:59 +0000 (UTC)
+Date: Sat, 19 Jul 2025 23:43:59 +0000 (UTC)
+From: Mail Delivery System <MAILER-DAEMON@localhost>
+Subject: Mail Delivery Status Report
+To: root@localhost
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="CB0191E9D4.1752968639/localhost"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20250719234359.0BD701E9D3@localhost>
+
+This is a MIME-encapsulated message.
+
+--CB0191E9D4.1752968639/localhost
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host localhost.
+
+Enclosed is the mail delivery report that you requested.
+
+                   The mail system
+
+<julia@cafeekernel>: Host or domain name not found. Name service error for
+    name=cafeekernel type=AAAA: Host not found
+
+--CB0191E9D4.1752968639/localhost
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; localhost
+X-Postfix-Queue-ID: CB0191E9D4
+X-Postfix-Sender: rfc822; root@localhost
+Arrival-Date: Sat, 19 Jul 2025 23:43:43 +0000 (UTC)
+
+Final-Recipient: rfc822; julia@cafeekernel
+Original-Recipient: rfc822;julia@cafeekernel
+Action: failed
+Status: 5.4.4
+Diagnostic-Code: X-Postfix; Host or domain name not found. Name service error
+    for name=cafeekernel type=AAAA: Host not found
+
+--CB0191E9D4.1752968639/localhost
+Content-Description: Message Headers
+Content-Type: text/rfc822-headers
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <root@localhost>
+Received: by localhost (Postfix, from userid 0)
+	id CB0191E9D4; Sat, 19 Jul 2025 23:43:43 +0000 (UTC)
+Subject: Teste via sendmail
+Message-Id: <20250719234343.CB0191E9D4@localhost>
+Date: Sat, 19 Jul 2025 23:43:43 +0000 (UTC)
+From: root <root@localhost>
+
+--CB0191E9D4.1752968639/localhost--
+
+From MAILER-DAEMON  Sat Jul 19 23:51:53 2025
+Return-Path: <>
+X-Original-To: root@localhost
+Delivered-To: root@localhost
+Received: by localhost (Postfix)
+	id 5A9F11E9D6; Sat, 19 Jul 2025 23:51:53 +0000 (UTC)
+Date: Sat, 19 Jul 2025 23:51:53 +0000 (UTC)
+From: Mail Delivery System <MAILER-DAEMON@localhost>
+Subject: Undelivered Mail Returned to Sender
+To: root@localhost
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="09EC61E9D4.1752969113/localhost"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20250719235153.5A9F11E9D6@localhost>
+
+This is a MIME-encapsulated message.
+
+--09EC61E9D4.1752969113/localhost
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host localhost.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<julia@cafeekernel>: Host or domain name not found. Name service error for
+    name=cafeekernel type=AAAA: Host not found
+
+--09EC61E9D4.1752969113/localhost
+Content-Description: Delivery report
+Content-Type: message/global-delivery-status
+Content-Transfer-Encoding: 8bit
+
+Reporting-MTA: dns; localhost
+X-Postfix-Queue-ID: 09EC61E9D4
+X-Postfix-Sender: rfc822; root@localhost
+Arrival-Date: Sat, 19 Jul 2025 23:51:42 +0000 (UTC)
+
+Final-Recipient: rfc822; julia@cafeekernel
+Original-Recipient: rfc822;julia@cafeekernel
+Action: failed
+Status: 5.4.4
+Diagnostic-Code: X-Postfix; Host or domain name not found. Name service error
+    for name=cafeekernel type=AAAA: Host not found
+
+--09EC61E9D4.1752969113/localhost
+Content-Description: Undelivered Message
+Content-Type: message/global
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <root@localhost>
+Received: by localhost (Postfix, from userid 0)
+	id 09EC61E9D4; Sat, 19 Jul 2025 23:51:42 +0000 (UTC)
+Subject: Teste pós-rsyslog
+Message-Id: <20250719235142.09EC61E9D4@localhost>
+Date: Sat, 19 Jul 2025 23:51:42 +0000 (UTC)
+From: root <root@localhost>
+
+Mensagem de verificação
+
+--09EC61E9D4.1752969113/localhost--
+
+From MAILER-DAEMON  Sat Jul 19 23:51:54 2025
+Return-Path: <>
+X-Original-To: root@localhost
+Delivered-To: root@localhost
+Received: by localhost (Postfix)
+	id 5C0141E9D3; Sat, 19 Jul 2025 23:51:53 +0000 (UTC)
+Date: Sat, 19 Jul 2025 23:51:53 +0000 (UTC)
+From: Mail Delivery System <MAILER-DAEMON@localhost>
+Subject: Mail Delivery Status Report
+To: root@localhost
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="09EC61E9D4.1752969113/localhost"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20250719235153.5C0141E9D3@localhost>
+
+This is a MIME-encapsulated message.
+
+--09EC61E9D4.1752969113/localhost
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host localhost.
+
+Enclosed is the mail delivery report that you requested.
+
+                   The mail system
+
+<julia@cafeekernel>: Host or domain name not found. Name service error for
+    name=cafeekernel type=AAAA: Host not found
+
+--09EC61E9D4.1752969113/localhost
+Content-Description: Delivery report
+Content-Type: message/global-delivery-status
+Content-Transfer-Encoding: 8bit
+
+Reporting-MTA: dns; localhost
+X-Postfix-Queue-ID: 09EC61E9D4
+X-Postfix-Sender: rfc822; root@localhost
+Arrival-Date: Sat, 19 Jul 2025 23:51:42 +0000 (UTC)
+
+Final-Recipient: rfc822; julia@cafeekernel
+Original-Recipient: rfc822;julia@cafeekernel
+Action: failed
+Status: 5.4.4
+Diagnostic-Code: X-Postfix; Host or domain name not found. Name service error
+    for name=cafeekernel type=AAAA: Host not found
+
+--09EC61E9D4.1752969113/localhost
+Content-Description: Message Headers
+Content-Type: message/global-headers
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <root@localhost>
+Received: by localhost (Postfix, from userid 0)
+	id 09EC61E9D4; Sat, 19 Jul 2025 23:51:42 +0000 (UTC)
+Subject: Teste pós-rsyslog
+Message-Id: <20250719235142.09EC61E9D4@localhost>
+Date: Sat, 19 Jul 2025 23:51:42 +0000 (UTC)
+From: root <root@localhost>
+
+--09EC61E9D4.1752969113/localhost--
+

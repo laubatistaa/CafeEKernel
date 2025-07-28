@@ -1,0 +1,4 @@
+zone "cafeekernel" {
+  type master;
+  file "/etc/bind/db.cafeekernel";
+};

@@ -1,0 +1,81 @@
+From MAILER-DAEMON  Mon Jul 14 03:10:53 2025
+Return-Path: <>
+X-Original-To: ana@cafeekernel
+Delivered-To: ana@cafeekernel
+Received: by localhost (Postfix)
+	id 28AC7EA92; Mon, 14 Jul 2025 03:10:53 +0000 (UTC)
+Date: Mon, 14 Jul 2025 03:10:53 +0000 (UTC)
+From: MAILER-DAEMON@cafeekernel (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: ana@cafeekernel
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="208F4EA2C.1752462653/localhost"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20250714031053.28AC7EA92@localhost>
+X-IMAPbase: 1752964859 0000000001
+X-UID: 1                                       
+Content-Length: 1793
+Status: RO
+
+This is a MIME-encapsulated message.
+
+--208F4EA2C.1752462653/localhost
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host localhost.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<julia@cafeekernel>: cannot update mailbox /var/mail/julia for user julia.
+    cannot open file: Is a directory
+
+--208F4EA2C.1752462653/localhost
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; localhost
+X-Postfix-Queue-ID: 208F4EA2C
+X-Postfix-Sender: rfc822; ana@cafeekernel
+Arrival-Date: Mon, 14 Jul 2025 03:10:53 +0000 (UTC)
+
+Final-Recipient: rfc822; julia@cafeekernel
+Original-Recipient: rfc822;julia@cafeekernel
+Action: failed
+Status: 5.2.0
+Diagnostic-Code: X-Postfix; cannot update mailbox /var/mail/julia for user
+    julia. cannot open file: Is a directory
+
+--208F4EA2C.1752462653/localhost
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <ana@cafeekernel>
+Received: from baea77c656a9 (localhost [IPv6:::1])
+	by localhost (Postfix) with ESMTP id 208F4EA2C
+	for <julia@cafeekernel>; Mon, 14 Jul 2025 03:10:53 +0000 (UTC)
+Date: Mon, 14 Jul 2025 03:10:53 +0000
+To: julia@cafeekernel
+From: ana@cafeekernel
+Subject: test Mon, 14 Jul 2025 03:10:53 +0000
+Message-Id: <20250714031053.040323@baea77c656a9>
+X-Mailer: swaks v20201014.0 jetmore.org/john/code/swaks/
+
+This is a test mailing
+
+
+
+--208F4EA2C.1752462653/localhost--
+

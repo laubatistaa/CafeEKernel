@@ -1,0 +1,25 @@
+$TTL 604800
+@       IN      SOA     ns1.cafeekernel. admin.cafeekernel. (
+                        7          ; Serial
+                        604800     ; Refresh
+                        86400      ; Retry
+                        2419200    ; Expire
+                        604800 )   ; Negative Cache TTL
+
+; Servidor de nomes
+@       IN      NS      ns1.cafeekernel.
+ns1     IN      A       172.25.0.53
+
+; Entrada principal via HAProxy
+www     IN      A       172.25.0.100     ; IP do HAProxy
+
+; Serviços roteados via proxy reverso (HTTP)
+portal  IN      CNAME   www              ; portal → HAProxy
+webmail IN      CNAME   www              ; webmail → HAProxy
+imap    IN      CNAME   www              ; IMAP via web → HAProxy
+
+; Serviço SMTP direto — necessário para MX
+smtp    IN      A       172.25.0.80      ; IP real do container 'email'
+
+; Registro MX — entrega de e-mails para 'smtp.cafeekernel'
+@       IN      MX 10   smtp.cafeekernel.

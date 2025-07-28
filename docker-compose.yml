@@ -1,0 +1,102 @@
+services:
+
+  dns:
+    build: ./dns
+    container_name: dns
+    networks:
+      cafeenet:
+        ipv4_address: 172.25.0.53
+    ports:
+      - "53:53"
+      - "53:53/udp"
+    volumes:
+      - ./dns:/etc/bind
+    cap_add:
+      - NET_ADMIN
+      - SYS_ADMIN
+    healthcheck:
+      test: ["CMD", "dig", "+short", "portal.cafeekernel", "@localhost"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+
+  portal:
+    build: ./portal
+    container_name: portal
+    networks:
+      cafeenet:
+        ipv4_address: 172.25.0.81
+    # O acesso ao portal será feito via HAProxy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  email:
+    build: ./webmail
+    container_name: email
+    networks:
+      cafeenet:
+        ipv4_address: 172.25.0.80
+    ports:
+      - "25:25"
+      - "587:587"
+      - "993:993"
+      - "80:80"
+    volumes:
+      - ./maildata:/var/mail
+      - ./webmail/cafeekernel:/opt/cafeekernel
+    depends_on:
+      dbmail:
+        condition: service_started
+    environment:
+      - DB_HOST=dbmail
+      - DB_USER=roundcube
+      - DB_PASS=senhaSegura
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pgrep apache2 || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  dbmail:
+    image: mariadb:10.6
+    container_name: dbmail
+    networks:
+      cafeenet:
+        ipv4_address: 172.25.0.79
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass
+      MYSQL_DATABASE: roundcube
+      MYSQL_USER: roundcube
+      MYSQL_PASSWORD: senhaSegura
+    volumes:
+      - ./db:/var/lib/mysql
+    restart: always
+
+  haproxy:
+    build: ./haproxy
+    container_name: haproxy
+    networks:
+      cafeenet:
+        ipv4_address: 172.25.0.100
+    ports:
+      - "8080:80"
+      - "443:443"
+    depends_on:
+      portal:
+        condition: service_healthy
+      email:
+        condition: service_healthy
+
+networks:
+  cafeenet:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.25.0.0/24
